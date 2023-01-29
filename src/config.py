@@ -1,10 +1,10 @@
 from models import Config
 import yaml, dacite, os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
 CHANNEL = "playground"
 
-load_dotenv()
+# load_dotenv()
 
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
 OPENAI_KEY = os.getenv("OPENAI_KEY")

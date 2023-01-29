@@ -1,8 +1,8 @@
 import openai
 from api import generate_response
-from utils import to_message, process_response
-from config import CHANNEL, INSTRUCTIONS, EXAMPLE_CONVERSATIONS, DISCORD_TOKEN
+from utils import to_message
 from models import Conversation, Prompt, Message
+from config import CHANNEL, INSTRUCTIONS, EXAMPLE_CONVERSATIONS, DISCORD_TOKEN
 from discord import Intents, app_commands, Client, Interaction, Message as DiscordMessage
 
 intents = Intents.default()
